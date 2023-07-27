@@ -43,6 +43,7 @@ public class CubeMovement : MonoBehaviour
         text.color = new Color(1f, 0f, 0f);
         text.text = "Поражение (ты сломал кубик D: )";
         button.gameObject.SetActive(true);
+        button.enabled = true;
         Time.timeScale = 0;
     }
 }
